@@ -11,6 +11,6 @@ const total = (avaliacao1 * peso1) + (avaliacao2 * peso2)
 const media = total / (peso1 + peso2);
 
 console.log(media.toFixed(2)); // Leitura aparece somente com 2 casas decimais
-console.log(media.toString(2));  // Leitura aparece Número em Binário 
+console.log(media.toString(2));  // Leitura aparece Número em Binário ou converte dado para String sem número de parâmetro
 console.log(typeof media);
 
